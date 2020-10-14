@@ -38,7 +38,6 @@ export default class App extends React.Component{
   }
 
   fetch_weather=()=> {
-    {/*http://api.openweathermap.org/data/2.5/weather?q='+this.state.city+'&appid=2606f769271b8d545fe3458b2b72ed9f*/}
     fetch('https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02')
       .then((response) => response.json())
       .then((json) => {
@@ -147,7 +146,7 @@ const styles = StyleSheet.create({
     flexDirection:"row"
   },
   Weather_Image:{
-    height:"50%",
+    height:"80%",
     width:"50%"
   },
   temprature_text:{
@@ -170,7 +169,7 @@ const styles = StyleSheet.create({
   Info_Holder_Veiw:{
     height:"80%",
     width:"90%",
-    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    backgroundColor: 'rgba(255, 255, 255, 0.92)',
     borderRadius:15
   },
   Main_Weather_Text:{
