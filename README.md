@@ -4,7 +4,7 @@
 
 ### Installing
 
-> Clone This Repo To Your PC 
+> Clone This Repo
 
 > Run npm install
 
