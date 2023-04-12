@@ -36,7 +36,7 @@
 
 ## Tutorial To Get API KEY
 
-[OpneWeatherMap API KEY - Belgin Android](https://www.youtube.com/watch?v=23WXD9_gdoY&t=45s)
+[OpneWeatherMap API KEY]
 
 ## Sample Preview
 
